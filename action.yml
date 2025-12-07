@@ -15,9 +15,10 @@ inputs:
   wait:
     description: 'Used to wait till the deployment is live'
     default: '3000' # 3sec default
-  # gh_token:
-  #   description: 'Used to comment on the PR, GH token for the repo with write access'
-  #   required: true
+  github_token:
+    description: 'Used to comment on the PR, GH token for the repo with write access'
+    default: ${{ github.token }}
+    required: false
 
 # Define your outputs here.
 outputs:

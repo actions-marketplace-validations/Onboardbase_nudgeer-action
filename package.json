@@ -2,8 +2,8 @@
   "name": "nudgeer-action",
   "description": "Security insights on each deployment",
   "version": "0.1.0",
-  "author": "Mahmoud@onboardbase",
-  "private": true,
+  "author": "Onboardbase",
+  "private": false,
   "homepage": "https://github.com/actions/nudgeer-action",
   "repository": {
     "type": "git",
