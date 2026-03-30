@@ -33,6 +33,14 @@
     tunnel "^0.0.6"
     undici "^5.25.4"
 
+"@actions/http-client@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-4.0.0.tgz#f9754133c22802466482bf96321d42f2dba1fc82"
+  integrity sha512-QuwPsgVMsD6qaPD57GLZi9sqzAZCtiJT8kVBCDpLtxhL5MydQ4gS+DrejtZZPdIYyB1e95uCK9Luyds7ybHI3g==
+  dependencies:
+    tunnel "^0.0.6"
+    undici "^6.23.0"
+
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.3.0.tgz#ed441b6fa600072520ce18b43d2c8cc8caecc7f4"
@@ -4129,6 +4137,11 @@ undici@^5.25.4:
   integrity sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==
   dependencies:
     "@fastify/busboy" "^2.0.0"
+
+undici@^6.23.0:
+  version "6.24.1"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.24.1.tgz#9df1425cede20b836d95634347946f79578b7e71"
+  integrity sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==
 
 universal-user-agent@^6.0.0:
   version "6.0.1"
